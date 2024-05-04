@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+    box-shadow: rgba(0,0,0,0.15) 1.95px 1.95px 2.6px;
+}
+.left img{
+    width: 50px;
+    height: 32px;
+}
+.container{
+    padding:0 5vw;
+}
+nav{
+    font-size: 12.2px ;
+}
+nav ul{
+    margin:0 40px;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 15px;
+    cursor: pointer;
+}
+nav ul li sup{
+    color: red;
+}
+.search{
+    width: 34vw;
+    padding: 7px 17px;
+    border: 0.5px solid grey;
+    background: #f7f8fd;
+    border-radius: 5px;
+}
+.slider{
+    overflow: hidden;
+    margin-top: 130px;
+}
+.slides{
+    display: flex;
+}
+.slides input{
+    display: none;
+}
+.slide{
+   transition: 1s;
+}
+.slide img{
+   width: 100vw;
+  cursor: pointer;
+}
+.navigation-manual{
+    position:absolute;  
+    margin-top: 10px;
+    display: flex;
+    margin-left: 45%;
+}
+.manual-btn{
+    background-color: rgba(203, 201, 201, 0.062);
+    padding: 3px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.manual-btn:not(:last-child){
+    margin-right: 20px;
+}
+.manual-btn:hover{
+    background-color: rgb(125, 124, 124);
+}
+#radio1:checked ~ .first{
+    margin-left: -1;
+}
+#radio2:checked ~ .first{
+    margin-left: -101%;
+}
+#radio3:checked ~ .first{
+    margin-left: -202%;
+}
+#radio4:checked ~ .first{
+    margin-left: -303.5%;
+}
+#radio5:checked ~ .first{
+    margin-left: -404.5%;
+}
+#radio6:checked ~ .first{
+    margin-left: -505.5%;
+}
+.navigation-auto{
+    position: absolute;
+    display: flex;
+    margin-top: 417px;
+    margin-left: 45%;
+}
+.navigation-auto div{
+    background-color: rgb(203, 201, 201);
+    padding: 3px;
+    border-radius: 10px;
+}
+.navigation-auto div:not(:last-child){
+    margin-right: 20px;
+}
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: rgb(125, 124, 124);
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+   background-color: rgb(125, 124, 124);
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: rgb(125, 124, 124);
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: rgb(125, 124, 124);
+}
+#radio5:checked ~ .navigation-auto .auto-btn5{
+    background-color: rgb(125, 124, 124);
+}
+#radio6:checked ~ .navigation-auto .auto-btn6{
+    background-color: rgb(125, 124, 124);
+}
+.ad{
+    width: 100%;
+    padding-top:20px ;
+}
+h4{
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin-left: 52px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-weight: bolder;
+}
+.deal{
+    margin-bottom: 20px;
+}
+.deal img{
+    height: 285.7px;
+}
+.brands img{
+    margin-right: 5.3px;
+    height: 242px;   
+}
+.top-picks img{
+    height: 265.9px;
+}
+.categories img{
+    height: 235.8px;
+}
+.top-brands img{
+    height: 308.9px;
+}
+.slashed img{
+    height: 252.6px;
+}
+.best-buys img{
+    height: 232.7px;
+}
+.luxe img{
+    height: 249px;
+}
+footer{
+    margin: 60px 0px;
+    font-size: 14px;
+}
+footer p{
+    margin: 25px 0px;
+}
+footer ul{
+    list-style: none;
+    color: #9b9c9f;
+    line-height: 28px;
+}
+.column31{
+    margin-top: 20px;
+}
+.column31 img{
+    margin-right: 8px;
+    width: 150px;
+    height: 50px;
+}
+.column32 img{
+    width: 30px;
+    height: 30px;
+    margin: 0px 5px;
+}
+.column4{
+    flex-direction: column;
+    width: 22%;
+}
+.column41 img{
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+}
+.column42 img{
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+}
